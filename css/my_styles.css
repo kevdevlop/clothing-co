@@ -1,0 +1,55 @@
+.sign-up{
+    margin-bottom: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.btn-signup{
+    margin-bottom: 10px;
+}
+
+.btn-signup input:hover{
+    background-color: #28a745 !important;
+    color: white;
+}
+a.logo{
+    color: #bcaaa4;
+}
+a.logo:hover {
+    text-decoration: none;
+    color: #3e2723;
+}
+
+a.logo-mobile{
+    color: #bcaaa4;
+}
+a.logo-mobile:hover {
+    text-decoration: none;
+    color: #3e2723;
+}
+
+
+.paginate_f{
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+
+.cantidad{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: -45px;
+}
+
+.header-cart-item-name{
+    display: inline !important;
+}
+
+.delete_cart{
+    padding-left: 41px;
+}
