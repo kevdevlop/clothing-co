@@ -95,7 +95,7 @@
 
         <div class="topbar-child2">
           <span class="topbar-email">
-            <strong>Contacto: </strong>fashe@example.com
+            <strong>Contacto: </strong>contacto@clothing-co.com
           </span>
 
       

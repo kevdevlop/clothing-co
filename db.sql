@@ -108,9 +108,9 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `nombre`, `image`, `price`, `descripcion`, `stock`, `categoria_id`) VALUES
-(1, 'cdcdsjcndjsknckn', 'img-cdcdsjcndjsknckn.jpg', '2344', 'cscmksmco', 0, 1),
-(2, 'cdkscmdsklcmlkdsmclkm', 'img-cdkscmdsklcmlkdsmclkm.jpg', '3456', 'csjkmdsklcmdklsmkl', 0, 2),
-(4, 'nuevo item', 'img-nuevo item.jpg', '988', 'skmxlamsxklmassa\r\ncd\r\nsc\r\ndsc\r\nds\r\n', 0, 2);
+(1, 'cdcdsjcndjsknckn', 'img/img-cdcdsjcndjsknckn.jpg', '2344', 'cscmksmco', 4, 1),
+(2, 'cdkscmdsklcmlkdsmclkm', 'img/img-cdkscmdsklcmlkdsmclkm.jpg', '3456', 'csjkmdsklcmdklsmkl', 3, 2),
+(4, 'nuevo item', 'img/img-nuevo item.jpg', '988', 'skmxlamsxklmassa\r\ncd\r\nsc\r\ndsc\r\nds\r\n', 0, 2);
 
 
 -- --------------------------------------------------------
@@ -169,7 +169,8 @@ CREATE TABLE `compraItem` (
 --
 -- Indexes for dumped tables
 --
-
+INSERT INTO `administradores` (`id`, `nombre`, `apellido`, `email`, `password`) 
+VALUES (NULL, 'Usuario Prueba', 'Prueba', 'prueba@mail.com', '123456789');
 
 
 --
