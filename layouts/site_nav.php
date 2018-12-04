@@ -163,7 +163,7 @@
               <ul class="header-cart-wrapitem">
                 <li class="header-cart-item">
                   <a class="header-cart-item-img" href="index.php?action=delete&id=<?php echo $value['item_id']?>">
-                    <img src="<?php echo  ($value['item_image'] == NULL ? "images/item-01.jpg" : $value['item_image'])?>" alt="IMG">
+                    <img src="<?php echo  ($value['item_image'] == NULL ? "images/item-01.jpg" : "admin/catalogos/".$value['item_image'])?>" alt="IMG">
                   </a>
 
                   <div class="header-cart-item-txt">

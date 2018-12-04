@@ -28,7 +28,7 @@
 								<tr class="table-row">
 									<td class="column-1">
 										<div class="cart-img-product b-rad-4 o-f-hidden">
-											<img src="<?php echo ($value['item_image'] == NULL ? "images/item-01.jpg" : $value['item_image']) ?>" alt="IMG-PRODUCT">
+											<img src="<?php echo ($value['item_image'] == NULL ? "images/item-01.jpg" : "admin/catalogos/".$value['item_image']) ?>" alt="IMG-PRODUCT">
 										</div>
 									</td>
 									<td class="column-2"><?php echo $value['item_name']; ?></td>

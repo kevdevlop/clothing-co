@@ -26,15 +26,7 @@
 						Somos una empresa dedicada a la venta de ropa en general para personas de todas las edades, en esta tienda virtual las personas pueden subir diseños de sus prendas para su venta; en nuestro sitio encontraran clientes potenciales que están dispuestos a comprar ropa de buena calidad.
 					</p>
 
-					<div class="bo13 p-l-29 m-l-9 p-b-10">
-						<p class="p-b-11">
-							Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn't really do it, they just saw something. It seemed obvious to them after a while.
-						</p>
-
-						<span class="s-text7">
-							- Steve Job’s
-						</span>
-					</div>
+					
 				</div>
 			</div>
 		</div>

@@ -68,7 +68,7 @@
 								<form method="post" action="index.php?action=add&id=<?php echo $product['id']; ?>" class="item-slick2 p-l-15 p-r-15">
 									<div class="block2">
 										<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-											<img src="<?php echo ($product['image'] == NULL ? "images/item-01.jpg" : $product['image']) ?>" alt="IMG-PRODUCT">
+											<img src="<?php echo ($product['image'] == NULL ? "images/item-01.jpg" : "admin/catalogos/".$product['image']) ?>" alt="IMG-PRODUCT">
 											<input type="hidden" name="hidden_image" value="<?php echo $product['image']; ?>">
 											<div class="block2-overlay trans-0-4">
 												<?php if($product['stock'] > 0){ ?>

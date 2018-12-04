@@ -116,7 +116,7 @@
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-									<img src="<?php echo(($value['image'] == NULL ? "images/item-01.jpg" : $value['image'])) ?>" alt="IMG-PRODUCT">
+									<img src="<?php echo(($value['image'] == NULL ? "images/item-01.jpg" : "admin/catalogos/".$value['image'])) ?>" alt="IMG-PRODUCT">
 									<input type="hidden" name="hidden_image" value="<?php echo $value['image']; ?>">
 									<div class="block2-overlay trans-0-4">
 										<?php if ($value['stock'] > 0){ ?>
@@ -180,11 +180,7 @@
 						
 					</div>
 
-					<!-- Pagination -->
-					<div class="pagination flex-m flex-w p-t-26">
-						<a href="#" class="item-pagination flex-c-m trans-0-4 active-pagination">1</a>
-						<a href="#" class="item-pagination flex-c-m trans-0-4">2</a>
-					</div>
+					
 				</div>
 			</div>
 		</div>

@@ -26,17 +26,12 @@
 					<div class="wrap-slick3-dots"></div>
 
 					<div class="slick3">
-						<div class="item-slick3" data-thumb="<?php echo($product['image']) ?>">
+						<div class="item-slick3" data-thumb="<?php echo("admin/catalogos/".$product['image']) ?>">
 							<div class="wrap-pic-w">
-								<img src="<?php echo($product['image']) ?>" alt="IMG-PRODUCT">
+								<img src="<?php echo("admin/catalogos/".$product['image']) ?>" alt="IMG-PRODUCT">
 							</div>
 						</div>
 
-						<div class="item-slick3" data-thumb="<?php echo($product['image']) ?>">
-							<div class="wrap-pic-w">
-								<img src="<?php echo($product['image']) ?>" alt="IMG-PRODUCT">
-							</div>
-						</div>
 
 						<!-- <div class="item-slick3" data-thumb="images/thumb-item-03.jpg">
 							<div class="wrap-pic-w">
